@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <title>Rock Friday</title>
+    </head>
+    <body>
+        <header class="topo">
+            <h1 id="titulo"> <strong>Rock Friday</strong></h1>
+            <h1 id="titulo" style="color: white;"><button class="cta"> <a href="#inscrever">Inscreva-se</a></button></h1>
+        </header>
+        <div class="campo">
+            <img src="electricGuitar.png" alt="guitarras" class="post_img">
+            <div class="cadastro">
+                <div>
+                    <p class="text"><strong>Cadastre seu E-mail para receber ofertas e descontos exclusivos!</strong> </p>
+                </div>
+                <form>
+                    <label id="nome" for="nome"><strong>Nome</strong></label>
+                    <input id="nomeUsuario" type="text" nome="nome" required>
+                    <label id="email"><strong>E-mail</strong></label>
+                    <input id="emailUsuario" type="email" nome="email" required>
+                    <button type="submit" id="inscrever" class="botao" onclick="cadastrar()">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <hr>
+            <div>
+                <p class="descricao">Site desenvolvido por Anderson Marques</p>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/andersondmarques/">Linkedin</a>
+                <a href="https://twitter.com/mandersonrj">Twitter</a>
+                <a href="mailto:marques.anderson53@gmail.com">Email</a>
+            </div>
+        </footer>
+    </body>
+</html>
+
+<script src="javascript.js"></script>
